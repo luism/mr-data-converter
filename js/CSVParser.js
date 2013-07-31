@@ -52,6 +52,8 @@ var CSVParser = {
 
     if (delimiterType === "comma") {
       columnDelimiter = ","
+    } else if (delimiterType === "dotcomma") {
+      columnDelimiter = ";"
     } else if (delimiterType === "tab") {
       columnDelimiter = "\t"
     }
